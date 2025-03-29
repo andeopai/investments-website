@@ -1,0 +1,51 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.env
+*.DS_Store
+
+# ---- Django ----
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+
+# ---- Virtual Environments ----
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# ---- PyCharm ----
+.idea/
+
+# ---- System Files ----
+*.swp
+*~
+*.bak
+*.tmp
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# ---- Test / Coverage ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
