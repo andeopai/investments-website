@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Investments Dashboard</title>
+</head>
+<body>
+<h1>Investments Dashboard</h1>
+
+<ul>
+    {% for investment in investments %}
+    <li>{{ investment.name }} ({{ investment.symbol }}) – Broker: {{ investment.broker }}</li>
+    {% empty %}
+    <li>No investments yet.</li>
+    {% endfor %}
+</ul>
+
+<!-- Button to redirect to the Add Investment page -->
+<button onclick="location.href='{% url 'add-investment' %}'">Add Investment</button>
+</body>
+</html>

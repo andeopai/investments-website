@@ -1,0 +1,9 @@
+To run:
+python manage.py runserver 8080
+
+To update when changes to model:
+python manage.py makemigrations
+python manage.py migrate
+
+To create superuser for debugging:
+python manage.py createsuperuser
