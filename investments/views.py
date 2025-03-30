@@ -4,7 +4,6 @@ from django.views.generic import ListView, TemplateView, CreateView
 
 from .forms import InvestmentForm
 from .models import Investment
-from django.forms.widgets import DateInput
 
 
 class InvestmentMainView(ListView):
