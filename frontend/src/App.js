@@ -9,10 +9,10 @@ function App() {
         broker: '',
         name: '',
         symbol: '',
-        purchase_date: '',
-        purchase_amount: '',
-        current_value: ''
+        units: '',
+        value: ''
     });
+
 
     useEffect(() => {
         fetch('http://127.0.0.1:8080/investments/')
